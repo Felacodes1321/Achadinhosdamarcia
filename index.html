@@ -53,7 +53,7 @@
 }
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-padding-top:env(safe-area-inset-top,0px);-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--fundo);color:var(--texto);font-family:var(--sans);font-size:1.125rem;line-height:1.5}
+body{margin:0;background:var(--fundo);color:var(--texto);font-family:var(--sans);font-size:1.1875rem;line-height:1.5}
 img{max-width:100%;display:block}
 a{color:inherit}
 :focus-visible{outline:3px solid var(--amarelo);outline-offset:3px;border-radius:6px}
@@ -67,7 +67,7 @@ a{color:inherit}
 .marca{margin:0;line-height:1}
 .marca .de{display:block;font-family:var(--sans);font-weight:700;font-size:1.5rem;color:var(--amarelo);letter-spacing:-.01em}
 .marca .nome{display:block;font-family:var(--serif);font-weight:400;font-size:3.6rem;line-height:1;margin-top:.1rem;letter-spacing:-.01em}
-.bio{max-width:30ch;margin:.9rem auto 0;font-size:1.0625rem;line-height:1.45;opacity:.92}
+.bio{max-width:30ch;margin:.9rem auto 0;font-size:1.1875rem;line-height:1.45}
 .redes{display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem;margin-top:1.1rem}
 .redes a{display:inline-flex;align-items:center;gap:.4rem;min-height:2.75rem;padding:.4rem 1rem;border-radius:999px;border:2px solid rgba(255,255,255,.55);text-decoration:none;font-weight:700;font-size:1rem}
 .redes a svg{width:1.15rem;height:1.15rem}
@@ -75,42 +75,56 @@ a{color:inherit}
 /* ---------- ferramentas ---------- */
 main{max-width:64rem;margin:0 auto;padding:0 1rem 2rem}
 .busca{position:relative;margin:-1.75rem auto 0;max-width:34rem}
-.busca input{width:100%;min-height:3.5rem;border-radius:1rem;border:2px solid var(--borda);background:var(--superficie);color:var(--texto);font:inherit;font-size:1.125rem;padding:.75rem 1rem .75rem 3rem;box-shadow:0 6px 18px rgba(20,50,36,.14)}
+.busca input{width:100%;min-height:3.75rem;border-radius:1rem;border:2px solid var(--borda);background:var(--superficie);color:var(--texto);font:inherit;font-size:1.1875rem;padding:.75rem 1rem .75rem 3.1rem;box-shadow:0 6px 18px rgba(20,50,36,.14)}
 .busca input::placeholder{color:var(--suave)}
 .busca svg{position:absolute;left:1rem;top:50%;transform:translateY(-50%);width:1.35rem;height:1.35rem;color:var(--suave);pointer-events:none}
 .filtros{display:flex;gap:.5rem;overflow-x:auto;padding:1rem .1rem .25rem;scrollbar-width:none;max-width:34rem;margin:0 auto}
 .filtros::-webkit-scrollbar{display:none}
-.filtros button{flex:none;min-height:2.75rem;padding:.4rem 1.05rem;border-radius:999px;border:2px solid var(--borda);background:var(--superficie);color:var(--texto);font:inherit;font-size:1rem;font-weight:700;cursor:pointer}
+.filtros button{flex:none;min-height:3rem;padding:.4rem 1.15rem;border-radius:999px;border:2px solid var(--borda);background:var(--superficie);color:var(--texto);font:inherit;font-size:1.0625rem;font-weight:700;cursor:pointer}
 .filtros button[aria-pressed="true"]{background:var(--verde);border-color:var(--verde);color:#fff}
 
 /* ---------- lista ---------- */
+/* ---------- como comprar ---------- */
+.como{max-width:34rem;margin:1.1rem auto 0;background:var(--superficie);border:2px solid var(--borda);border-radius:1.25rem;padding:1rem 1.1rem 1.1rem}
+.como h2{margin:0 0 .7rem;font-family:var(--serif);font-weight:400;font-size:1.4rem;line-height:1.2;text-align:center}
+.como ol{list-style:none;margin:0;padding:0;display:grid;gap:.7rem}
+.como li{display:grid;grid-template-columns:2.4rem minmax(0,1fr);gap:.75rem;align-items:center;font-size:1.125rem;line-height:1.35}
+.como .passo{width:2.4rem;height:2.4rem;border-radius:50%;background:var(--verde);color:#fff;font-weight:700;font-size:1.2rem;display:grid;place-items:center}
+.como b{color:var(--verde)}
+
 .lista{list-style:none;margin:1.25rem 0 0;padding:0;display:grid;gap:1rem}
-.item{background:var(--superficie);border:1px solid var(--borda);border-radius:1.25rem;padding:.9rem;display:grid;grid-template-columns:8.25rem minmax(0,1fr);column-gap:1rem;row-gap:1.15rem;scroll-margin-top:1rem}
+.item{background:var(--superficie);border:2px solid var(--borda);border-radius:1.25rem;padding:1rem;display:grid;grid-template-columns:8.75rem minmax(0,1fr);column-gap:1rem;row-gap:.9rem;scroll-margin-top:1rem;align-content:start}
 .item.destaque{outline:4px solid var(--amarelo);outline-offset:2px}
-.foto{position:relative;display:block;aspect-ratio:1;border-radius:.9rem;background:#fff;align-self:start}
-.foto img{width:100%;height:100%;object-fit:cover;border-radius:.9rem}
+.foto{position:relative;display:block;aspect-ratio:1;border-radius:.9rem;background:#fff;align-self:start;border:1px solid var(--borda)}
+.foto img{width:100%;height:100%;object-fit:cover;border-radius:.85rem}
 .foto .sem{width:100%;height:100%;border-radius:.9rem;background:var(--verde-claro);display:flex;align-items:center;justify-content:center;color:var(--verde)}
 .foto .sem svg{width:45%;height:45%}
-.etiqueta{position:absolute;left:-.4rem;bottom:-.55rem;background:var(--amarelo);color:#1D2B26;border-radius:.6rem;padding:.3rem .6rem .3rem 1.45rem;font-weight:700;font-size:1.0625rem;line-height:1.1;white-space:nowrap;transform:rotate(-6deg);box-shadow:0 2px 0 var(--amarelo-sombra)}
-.etiqueta::before{content:"";position:absolute;left:.5rem;top:50%;width:.5rem;height:.5rem;margin-top:-.25rem;border-radius:50%;background:var(--superficie)}
-.info{min-width:0;display:flex;flex-direction:column;gap:.3rem}
-.num{font-weight:700;font-size:.9375rem;color:var(--verde)}
-.item h2{margin:0;font-family:var(--serif);font-weight:400;font-size:1.25rem;line-height:1.22;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.antigo{margin:0;font-size:1rem;color:var(--suave)}
-.antigo s{text-decoration-thickness:2px}
-.timer{align-self:flex-start;display:inline-flex;align-items:center;gap:.35rem;margin:.15rem 0 0;background:var(--amarelo);color:#1D2B26;border-radius:999px;padding:.25rem .7rem .25rem .55rem;font-size:.9375rem;font-weight:700;line-height:1.2;font-variant-numeric:tabular-nums}
-.timer svg{width:1rem;height:1rem;flex:none}
-.timer b{letter-spacing:.02em}
-.frase{margin:.15rem 0 0;font-style:italic;font-size:1rem;line-height:1.4;color:var(--texto)}
-.comprar{grid-column:1 / -1;display:flex;align-items:center;justify-content:center;gap:.5rem;min-height:3.4rem;border-radius:.9rem;background:var(--verde);color:#fff;text-decoration:none;font-weight:700;font-size:1.1875rem}
-.comprar:active{background:var(--verde-escuro)}
-.comprar svg{width:1.25rem;height:1.25rem}
+.info{min-width:0;display:flex;flex-direction:column;gap:.4rem}
+.num{align-self:flex-start;font-weight:700;font-size:1rem;color:#fff;background:var(--verde);border-radius:999px;padding:.15rem .7rem}
+.item h2{margin:0;font-family:var(--serif);font-weight:400;font-size:1.3rem;line-height:1.25;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.frase{margin:.15rem 0 0;font-style:italic;font-size:1.0625rem;line-height:1.4;color:var(--texto)}
+
+/* preço: grande, reto e com contraste fixo (amarelo etiqueta) */
+.preco{grid-column:1 / -1;position:relative;display:flex;flex-wrap:wrap;align-items:center;gap:.35rem .8rem;background:var(--amarelo);color:#1D2B26;border-radius:1rem;padding:.75rem 1rem;margin-top:.35rem;box-shadow:0 3px 0 var(--amarelo-sombra)}
+.preco .valor{display:flex;flex-direction:column;line-height:1.1}
+.preco .de{font-size:1.0625rem;font-weight:700}
+.preco .de s{text-decoration-thickness:2px}
+.preco strong{font-size:2.1rem;font-weight:700;letter-spacing:-.01em;font-variant-numeric:tabular-nums}
+.preco .off{position:absolute;top:-.7rem;right:.7rem;transform:rotate(4deg);background:#1D2B26;color:#fff;border-radius:.6rem;padding:.25rem .6rem;font-weight:700;font-size:1.0625rem;white-space:nowrap;box-shadow:0 2px 0 rgba(0,0,0,.25)}
+.timer{flex-basis:100%;display:flex;align-items:center;gap:.4rem;margin:.15rem 0 0;padding-top:.5rem;border-top:2px dashed rgba(29,43,38,.3);font-size:1.0625rem;font-weight:700;line-height:1.25;font-variant-numeric:tabular-nums}
+.timer svg{width:1.15rem;height:1.15rem;flex:none}
+
+.comprar{grid-column:1 / -1;display:flex;align-items:center;justify-content:center;gap:.6rem;min-height:4rem;border-radius:1rem;background:var(--verde);color:#fff;text-decoration:none;font-weight:700;font-size:1.3125rem;box-shadow:0 4px 0 var(--verde-escuro)}
+.comprar:active{background:var(--verde-escuro);transform:translateY(2px);box-shadow:0 2px 0 var(--verde-escuro)}
+.comprar svg{width:1.45rem;height:1.45rem;flex:none}
+.comprar .seta{width:1.3rem;height:1.3rem}
+.ajuda{grid-column:1 / -1;margin:-.35rem 0 0;text-align:center;font-size:1rem;color:var(--suave)}
 .editar-item{grid-column:1 / -1;justify-self:end;margin-top:-.4rem;background:none;border:0;color:var(--suave);font:inherit;font-size:1rem;font-weight:700;text-decoration:underline;padding:.4rem .2rem;cursor:pointer}
 
 .aviso-vazio{text-align:center;max-width:26rem;margin:2.5rem auto;color:var(--suave)}
 .aviso-vazio strong{display:block;font-family:var(--serif);font-weight:400;font-size:1.5rem;color:var(--texto);margin-bottom:.4rem}
 
-footer{max-width:34rem;margin:0 auto;padding:1rem 1.25rem 2.5rem;text-align:center;font-size:.9375rem;color:var(--suave)}
+footer{max-width:34rem;margin:0 auto;padding:1rem 1.25rem 2.5rem;text-align:center;font-size:1.0625rem;line-height:1.5;color:var(--suave)}
 footer p{margin:.4rem 0}
 .sem-edicao footer{padding-bottom:2.5rem}
 
@@ -156,12 +170,20 @@ dialog::backdrop{background:rgba(18,32,26,.55)}
   .topo{padding:3rem 1.5rem 4.25rem}
   .marca .nome{font-size:4.5rem}
   .lista{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .filtros{flex-wrap:wrap;justify-content:center;overflow:visible;max-width:60rem}
+  .item{grid-template-rows:auto 1fr auto auto}
+  .preco{align-self:end}
   dialog{margin:auto;border-radius:1.5rem}
 }
 @media (min-width:62rem){
   .lista{grid-template-columns:repeat(3,minmax(0,1fr))}
-  .item{grid-template-columns:1fr}
+  .item{grid-template-columns:1fr;grid-template-rows:auto 1fr auto auto auto}
   .item .foto{width:100%}
+  .como{max-width:60rem}
+  .como ol{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media (max-width:22rem){
+  .item{grid-template-columns:1fr}
 }
 @media (prefers-reduced-motion:no-preference){
   .item.destaque{animation:pisca 1.6s ease-out 1}
@@ -176,8 +198,16 @@ dialog::backdrop{background:rgba(18,32,26,.55)}
   <div class="busca">
     <label class="sr" for="q">Procurar achadinho</label>
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
-    <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="Procure pelo nome ou número">
+    <input id="q" type="search" inputmode="search" autocomplete="off" placeholder="Digite o nome ou o nº do vídeo">
   </div>
+  <section class="como" aria-labelledby="como-t">
+    <h2 id="como-t">Como comprar</h2>
+    <ol>
+      <li><span class="passo">1</span><span>Escolha o produto. Viu num vídeo? <b>Digite o número</b> na busca.</span></li>
+      <li><span class="passo">2</span><span>Toque no botão verde <b>Comprar na Shopee</b>.</span></li>
+      <li><span class="passo">3</span><span>A Shopee abre já no produto. É só <b>finalizar a compra lá</b>.</span></li>
+    </ol>
+  </section>
   <div class="filtros" id="filtros" role="group" aria-label="Categorias" hidden></div>
   <ol class="lista" id="lista" aria-live="polite"></ol>
   <div class="aviso-vazio" id="vazio" hidden></div>
@@ -267,22 +297,29 @@ dialog::backdrop{background:rgba(18,32,26,.55)}
     return (d ? d + "d " : "") + z(hh) + ":" + z(mm) + ":" + z(ss);
   }
   var RAIO = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7l1-8z"></path></svg>';
+  function valor(s){ var n = parseFloat(String(s || "").replace(/R\$\s*/i, "").replace(/\./g, "").replace(",", ".")); return isNaN(n) ? 0 : n; }
+  var SETA = '<svg class="seta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>';
   function cartao(p){
-    var o = oferta(p);
-    p = Object.assign({}, p, { preco: o.preco, antigo: o.antigo });
-    var link = esc(linkSeguro(p.link));
+    var o = oferta(p), link = esc(linkSeguro(p.link));
+    var pv = valor(o.preco), pa = valor(o.antigo), off = pa > pv && pv > 0 ? Math.round((1 - pv / pa) * 100) : 0;
     var h = '<li class="item" id="n' + p.n + '">';
     h += '<a class="foto" href="' + link + '" target="_blank" rel="sponsored noopener" tabindex="-1" aria-hidden="true">';
     h += p.foto ? '<img src="' + esc(p.foto) + '" alt="" loading="lazy" width="264" height="264">' : '<span class="sem">' + ICO.casaLinha + "</span>";
-    if (p.preco) h += '<span class="etiqueta">' + esc(preco(p.preco)) + "</span>";
     h += "</a><div class=\"info\">";
     h += '<span class="num">nº ' + p.n + "</span>";
     h += "<h2>" + esc(p.nome) + "</h2>";
-    if (p.antigo) h += '<p class="antigo">de <s>' + esc(preco(p.antigo)) + "</s></p>";
-    if (o.fim) h += '<p class="timer" data-fim="' + o.fim + '">' + RAIO + 'Oferta relâmpago · termina em <b>' + falta(o.fim - Date.now()) + "</b></p>";
     if (p.frase) h += '<p class="frase">“' + esc(p.frase) + "”</p>";
     h += "</div>";
-    h += '<a class="comprar" href="' + link + '" target="_blank" rel="sponsored noopener">' + ICO.sacola + 'Ver na Shopee<span class="sr">: ' + esc(p.nome) + (p.preco ? ", " + esc(preco(p.preco)) : "") + "</span></a>";
+    if (o.preco){
+      h += '<div class="preco"><span class="valor">';
+      if (o.antigo) h += '<span class="de">de <s>' + esc(preco(o.antigo)) + "</s> por</span>";
+      h += "<strong>" + esc(preco(o.preco)) + "</strong></span>";
+      if (off >= 5) h += '<span class="off">' + off + "% OFF</span>";
+      if (o.fim) h += '<p class="timer" data-fim="' + o.fim + '">' + RAIO + 'Oferta relâmpago: termina em <b>' + falta(o.fim - Date.now()) + "</b></p>";
+      h += "</div>";
+    }
+    h += '<a class="comprar" href="' + link + '" target="_blank" rel="sponsored noopener">' + ICO.sacola + 'Comprar na Shopee' + SETA + '<span class="sr">: ' + esc(p.nome) + (o.preco ? ", " + esc(preco(o.preco)) : "") + "</span></a>";
+    h += '<p class="ajuda">Abre a Shopee já no produto</p>';
     return h + "</li>";
   }
   function desenharLista(){

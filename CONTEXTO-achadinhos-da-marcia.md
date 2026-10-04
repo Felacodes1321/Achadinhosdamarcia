@@ -115,7 +115,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 
 **Marca:** "achadinhos da" em amarelo, com "Márcia" em serifa branca. A foto dela fica num círculo, com o selo da casinha com o check amarelo. Ela também usa "Tia Márcia" nos selos do kit, mas o site usa "Márcia", como na foto de perfil.
 
-**Etiqueta de preço:** amarela, levemente inclinada (−6°) e com um "furinho", como nos selos do kit.
+**Preço:** faixa amarela larga e reta logo abaixo da foto, com o preço grande (de ~~antigo~~ por **atual**) e um selo "% OFF" calculado sozinho quando o desconto passa de 5%. Foi feito assim para o público de 50 a 65 anos ler o preço sem esforço; não voltar para a etiqueta pequena inclinada sobre a foto.
+
+**Compra:** botão verde "Comprar na Shopee" com a frase "Abre a Shopee já no produto" embaixo, e o quadro "Como comprar" (3 passos) abaixo da busca. Mantenha os dois.
 
 **Rodapé:** traz o aviso de link de afiliada. Mantenha esse aviso.
 
