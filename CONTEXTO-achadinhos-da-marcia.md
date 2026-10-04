@@ -64,7 +64,7 @@ Regras para os campos:
 - **`foto`** é uma imagem embutida em base64. Recorte no centro em formato quadrado, reduza para 560×560 e salve em JPEG com qualidade 78, o que dá uns 50 a 70 KB. O arquivo inteiro precisa ficar **abaixo de 16 MB**. Se `foto` estiver vazio, aparece o ícone da casinha.
 - **`oferta`** e **`ate`** (opcionais) servem para oferta relâmpago. `oferta` é o preço promocional e `ate` é quando a oferta acaba, no formato `"2026-09-29T00:00:00-03:00"`. Enquanto a oferta vale, o cartão mostra `oferta` na etiqueta, `preco` riscado e um contador regressivo. Quando acaba, volta sozinho para `preco`. As ofertas relâmpago da Shopee costumam acabar na virada de hora; calcule pelo "termina em" do print.
 - **`frase`** é a opinião da Márcia. **Só preencha se ela mandar.** Não escreva frases por ela.
-- **`cat`** é a categoria. As atuais são "Cozinha", "Organização", "Banheiro" e "Limpeza". Reaproveite as existentes, porque os filtros só aparecem quando existem 2 ou mais categorias.
+- **`cat`** é a categoria. As atuais são "Cozinha", "Organização", "Banheiro", "Limpeza" e "Dia a dia". Reaproveite as existentes, porque os filtros só aparecem quando existem 2 ou mais categorias.
 - **`insta`, `tiktok` e `whats`** são os links das redes. Os botões só aparecem quando o link está preenchido. Por enquanto estão vazios, então é preciso pedir os links para a Márcia.
 - Dentro do JSON, troque todo `<` por `\u003c` para não quebrar o `<script>`.
 
@@ -131,8 +131,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 6 | Garrafa térmica 1 L lisa com cabo de madeira | 59,88 | 150,00 | Cozinha | https://s.shopee.com.br/905fo6Xdpq |
 | 7 | Kit 5 potes de vidro hermético tampa bambu | 79,90 | 199,90 | Cozinha | https://s.shopee.com.br/qjy69Onru |
 | 8 | Porta temperos giratório com 9 potes de vidro | 69,80 (oferta 37,79 até 03/10 00h) | | Cozinha | https://s.shopee.com.br/6q1BG6MnRf |
+| 9 | Guarda-chuva automático resistente ao vento | 43,43 | 50,49 | Dia a dia | https://s.shopee.com.br/8AWbTEHmYF |
 
-O próximo número é **9**.
+O próximo número é **10**.
 
 ## Onde está publicado
 
