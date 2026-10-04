@@ -135,8 +135,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 8 | Porta temperos giratório com 9 potes de vidro | 69,80 (oferta 37,79 até 03/10 00h) | | Cozinha | https://s.shopee.com.br/6q1BG6MnRf |
 | 9 | Guarda-chuva automático resistente ao vento | 43,43 | 50,49 | Dia a dia | https://s.shopee.com.br/8AWbTEHmYF |
 | 10 | Mini triturador elétrico recarregável | 29,90 | | Cozinha | https://s.shopee.com.br/1AtlzD6G5 |
+| 11 | Lixeira automática com sensor 16 L | 65,86 | 200,00 | Limpeza | https://s.shopee.com.br/8AWbWLRkJU |
 
-O próximo número é **11**.
+O próximo número é **12**.
 
 ## Onde está publicado
 
