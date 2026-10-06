@@ -138,8 +138,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 11 | Lixeira automática com sensor 16 L | 65,86 | 200,00 | Limpeza | https://s.shopee.com.br/8AWbWLRkJU |
 | 12 | Porta ovos rolante 4 andares para geladeira | 13,08 | 45,00 | Organização | https://s.shopee.com.br/3B7xqBGycr |
 | 13 | Caixa organizadora de geladeira empilhável | 70,00 (oferta 37,99 até 07/10 00h) | | Organização | https://s.shopee.com.br/W7CfoMWrQ |
+| 14 | Fatiador de legumes multifuncional 16 em 1 | 26,99 | 100,00 | Cozinha | https://s.shopee.com.br/gQcsx9cTx |
 
-O próximo número é **14**.
+O próximo número é **15**.
 
 ## Onde está publicado
 
