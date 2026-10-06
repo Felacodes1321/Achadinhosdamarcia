@@ -136,8 +136,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 9 | Guarda-chuva automático resistente ao vento | 43,43 | 50,49 | Dia a dia | https://s.shopee.com.br/8AWbTEHmYF |
 | 10 | Mini triturador elétrico recarregável | 29,90 | | Cozinha | https://s.shopee.com.br/1AtlzD6G5 |
 | 11 | Lixeira automática com sensor 16 L | 65,86 | 200,00 | Limpeza | https://s.shopee.com.br/8AWbWLRkJU |
+| 12 | Porta ovos rolante 4 andares para geladeira | 13,08 | 45,00 | Organização | https://s.shopee.com.br/3B7xqBGycr |
 
-O próximo número é **12**.
+O próximo número é **13**.
 
 ## Onde está publicado
 
