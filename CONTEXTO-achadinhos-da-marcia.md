@@ -140,8 +140,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 13 | Caixa organizadora de geladeira empilhável | 70,00 (oferta 37,99 até 07/10 00h) | | Organização | https://s.shopee.com.br/W7CfoMWrQ |
 | 14 | Fatiador de legumes multifuncional 16 em 1 | 26,99 | 100,00 | Cozinha | https://s.shopee.com.br/gQcsx9cTx |
 | 15 | Mop giratório com balde centrífuga e 2 refis | 59,90 | 121,90 | Limpeza | https://s.shopee.com.br/1LgMrzkt5c |
+| 16 | Moedor elétrico de café e especiarias | 69,99 (oferta 35,69 até 09/10 00h) | | Cozinha | https://s.shopee.com.br/3LRRFhcSzu |
 
-O próximo número é **16**.
+O próximo número é **17**.
 
 ## Onde está publicado
 
