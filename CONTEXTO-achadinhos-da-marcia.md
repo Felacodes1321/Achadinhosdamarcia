@@ -141,8 +141,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 14 | Fatiador de legumes multifuncional 16 em 1 | 26,99 | 100,00 | Cozinha | https://s.shopee.com.br/gQcsx9cTx |
 | 15 | Mop giratório com balde centrífuga e 2 refis | 59,90 | 121,90 | Limpeza | https://s.shopee.com.br/1LgMrzkt5c |
 | 16 | Moedor elétrico de café e especiarias | 69,99 (oferta 35,69 até 09/10 00h) | | Cozinha | https://s.shopee.com.br/3LRRFhcSzu |
+| 17 | Kit limpeza de teclado e fone 7 em 1 | 19,99 | 35,99 | Limpeza | https://s.shopee.com.br/1BMwfmIdAf |
 
-O próximo número é **17**.
+O próximo número é **18**.
 
 ## Onde está publicado
 
