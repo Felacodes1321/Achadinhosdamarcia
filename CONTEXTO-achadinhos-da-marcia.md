@@ -139,8 +139,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 12 | Porta ovos rolante 4 andares para geladeira | 13,08 | 45,00 | Organização | https://s.shopee.com.br/3B7xqBGycr |
 | 13 | Caixa organizadora de geladeira empilhável | 70,00 (oferta 37,99 até 07/10 00h) | | Organização | https://s.shopee.com.br/W7CfoMWrQ |
 | 14 | Fatiador de legumes multifuncional 16 em 1 | 26,99 | 100,00 | Cozinha | https://s.shopee.com.br/gQcsx9cTx |
+| 15 | Mop giratório com balde centrífuga e 2 refis | 59,90 | 121,90 | Limpeza | https://s.shopee.com.br/1LgMrzkt5c |
 
-O próximo número é **15**.
+O próximo número é **16**.
 
 ## Onde está publicado
 
