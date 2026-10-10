@@ -64,7 +64,7 @@ Regras para os campos:
 - **`foto`** é uma imagem embutida em base64. Recorte no centro em formato quadrado, reduza para 560×560 e salve em JPEG com qualidade 78, o que dá uns 50 a 70 KB. O arquivo inteiro precisa ficar **abaixo de 16 MB**. Se `foto` estiver vazio, aparece o ícone da casinha.
 - **`oferta`** e **`ate`** (opcionais) servem para oferta relâmpago. `oferta` é o preço promocional e `ate` é quando a oferta acaba, no formato `"2026-09-29T00:00:00-03:00"`. Enquanto a oferta vale, o cartão mostra `oferta` na etiqueta, `preco` riscado e um contador regressivo. Quando acaba, volta sozinho para `preco`. As ofertas relâmpago da Shopee costumam acabar na virada de hora; calcule pelo "termina em" do print.
 - **`frase`** é a opinião da Márcia. **Só preencha se ela mandar.** Não escreva frases por ela.
-- **`cat`** é a categoria. As atuais são "Cozinha", "Organização", "Banheiro", "Limpeza" e "Dia a dia". Reaproveite as existentes, porque os filtros só aparecem quando existem 2 ou mais categorias.
+- **`cat`** é a categoria. As atuais são "Cozinha", "Organização", "Banheiro", "Limpeza", "Dia a dia" e "Saúde". Reaproveite as existentes, porque os filtros só aparecem quando existem 2 ou mais categorias.
 - **`insta`, `tiktok` e `whats`** são os links das redes. Os botões só aparecem quando o link está preenchido. Por enquanto estão vazios, então é preciso pedir os links para a Márcia.
 - Dentro do JSON, troque todo `<` por `\u003c` para não quebrar o `<script>`.
 
@@ -142,8 +142,11 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 15 | Mop giratório com balde centrífuga e 2 refis | 59,90 | 121,90 | Limpeza | https://s.shopee.com.br/1LgMrzkt5c |
 | 16 | Moedor elétrico de café e especiarias | 69,99 (oferta 35,69 até 09/10 00h) | | Cozinha | https://s.shopee.com.br/3LRRFhcSzu |
 | 17 | Kit limpeza de teclado e fone 7 em 1 | 19,99 | 35,99 | Limpeza | https://s.shopee.com.br/1BMwfmIdAf |
+| 18 | Amolador elétrico de facas e tesouras | 32,00 (oferta 27,89 até 11/10 00h) |  | Cozinha | https://s.shopee.com.br/60SGQrRYVJ |
+| 19 | Kit 6 formas de silicone para air fryer | 14,90 | 19,90 | Cozinha | https://s.shopee.com.br/5fpQ2GO1LB |
+| 20 | Medidor de pressão de pulso recarregável | 39,89 |  | Saúde | https://s.shopee.com.br/9APICi1M8h |
 
-O próximo número é **18**.
+O próximo número é **21**.
 
 ## Onde está publicado
 
