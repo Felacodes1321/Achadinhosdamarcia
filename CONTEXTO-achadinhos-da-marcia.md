@@ -146,8 +146,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 19 | Kit 6 formas de silicone para air fryer | 14,90 | 19,90 | Cozinha | https://s.shopee.com.br/5fpQ2GO1LB |
 | 20 | Medidor de pressão de pulso recarregável | 39,89 |  | Saúde | https://s.shopee.com.br/9APICi1M8h |
 | 21 | Tapete escorredor de louças | 23,90 | | Cozinha | https://s.shopee.com.br/70KrPAgmpB |
+| 22 | Escova removedora de pelos 4 em 1 | 21,95 | | Limpeza | https://s.shopee.com.br/3VkzEq4ohz |
 
-O próximo número é **22**.
+O próximo número é **23**.
 
 ## Onde está publicado
 
