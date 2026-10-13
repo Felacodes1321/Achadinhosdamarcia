@@ -147,8 +147,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 20 | Medidor de pressão de pulso recarregável | 39,89 |  | Saúde | https://s.shopee.com.br/9APICi1M8h |
 | 21 | Tapete escorredor de louças | 23,90 | | Cozinha | https://s.shopee.com.br/70KrPAgmpB |
 | 22 | Escova removedora de pelos 4 em 1 | 21,95 | | Limpeza | https://s.shopee.com.br/3VkzEq4ohz |
+| 23 | Kit sacos a vácuo com bomba elétrica | 63,90 | 90,00 | Organização | https://s.shopee.com.br/1B74WoRWh |
 
-O próximo número é **23**.
+O próximo número é **24**.
 
 ## Onde está publicado
 
