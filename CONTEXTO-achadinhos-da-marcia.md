@@ -145,8 +145,9 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 18 | Amolador elétrico de facas e tesouras | 32,00 (oferta 27,89 até 11/10 00h) |  | Cozinha | https://s.shopee.com.br/60SGQrRYVJ |
 | 19 | Kit 6 formas de silicone para air fryer | 14,90 | 19,90 | Cozinha | https://s.shopee.com.br/5fpQ2GO1LB |
 | 20 | Medidor de pressão de pulso recarregável | 39,89 |  | Saúde | https://s.shopee.com.br/9APICi1M8h |
+| 21 | Tapete escorredor de louças | 23,90 | | Cozinha | https://s.shopee.com.br/70KrPAgmpB |
 
-O próximo número é **21**.
+O próximo número é **22**.
 
 ## Onde está publicado
 
