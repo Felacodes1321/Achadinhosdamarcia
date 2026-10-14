@@ -148,9 +148,6 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 21 | Tapete escorredor de louças | 23,90 | | Cozinha | https://s.shopee.com.br/70KrPAgmpB |
 | 22 | Escova removedora de pelos 4 em 1 | 21,95 | | Limpeza | https://s.shopee.com.br/3VkzEq4ohz |
 | 23 | Kit sacos a vácuo com bomba elétrica | 63,90 | 90,00 | Organização | https://s.shopee.com.br/1B74WoRWh |
-| 27 | Esponja mágica de melamina kit 30 | 23,90 | 69,90 | Limpeza | https://s.shopee.com.br/50ZodbFjud |
-| 28 | Sapateira de caixas transparentes empilháveis | 118,89 |  | Organização | https://s.shopee.com.br/6L5CE3o7kS |
-| 29 | Tela protetora de ralo anti-inseto 5 m | 14,98 | 37,98 | Banheiro | https://s.shopee.com.br/1gJMfUjPym |
 | 24 | Esponja mágica de melamina kit 30 | 23,90 | 69,90 | Limpeza | https://s.shopee.com.br/50ZodbFjud |
 | 25 | Sapateira de caixas transparentes empilháveis | 118,89 |  | Organização | https://s.shopee.com.br/6L5CE3o7kS |
 | 26 | Tela protetora de ralo anti-inseto 5 m | 14,98 | 37,98 | Banheiro | https://s.shopee.com.br/1gJMfUjPym |
