@@ -151,8 +151,18 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 24 | Esponja mágica de melamina kit 30 | 23,90 | 69,90 | Limpeza | https://s.shopee.com.br/50ZodbFjud |
 | 25 | Sapateira de caixas transparentes empilháveis | 118,89 |  | Organização | https://s.shopee.com.br/6L5CE3o7kS |
 | 26 | Tela protetora de ralo anti-inseto 5 m | 14,98 | 37,98 | Banheiro | https://s.shopee.com.br/1gJMfUjPym |
+| 27 | Espuma limpa sofá a seco Zip Clean 300 ml | 17,18 | 39,00 | Limpeza | https://s.shopee.com.br/9063Jvw2N1 |
+| 28 | Percarbonato tira manchas para roupas | 17,90 | 29,90 | Limpeza | https://s.shopee.com.br/8AWwKOzD3s |
+| 29 | Escova elétrica giratória 5 em 1 sem fio | 29,99 | 89,90 | Limpeza | https://s.shopee.com.br/80DW85zqOr |
+| 30 | Mini processador elétrico sem fio 250 ml | 23,88 | 47,58 | Cozinha | https://s.shopee.com.br/8V9mj0xwNy |
+| 31 | Mixer batedor elétrico para café e leite | 18,69 | 89,99 | Cozinha | https://s.shopee.com.br/8KqMWhyZix |
+| 32 | Kit 3 quadros decorativos Amor e Família | 14,90 | 39,89 | Dia a dia | https://s.shopee.com.br/50ZuYdev74 |
+| 33 | Arranjo 3 heras artificiais com vaso trançado | 17,99 | 35,00 | Dia a dia | https://s.shopee.com.br/5AtKkweHm7 |
+| 34 | Jogo de lençol 400 fios com fronhas | 12,50 | 26,00 | Dia a dia | https://s.shopee.com.br/40hNMnij8u |
+| 35 | Kit 10 petisqueiras barquinha | 19,91 | 119,90 | Cozinha | https://s.shopee.com.br/4B0nZ6i5nx |
+| 36 | Kit 7 saquinhos organizadores de mala | 11,99 | 18,99 | Organização | https://s.shopee.com.br/4LKDlPhST0 |
 
-O próximo número é **27**.
+O próximo número é **37**.
 
 ## Onde está publicado
 
