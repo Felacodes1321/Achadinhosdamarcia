@@ -161,8 +161,38 @@ open("index.html", "w", encoding="utf-8").write(html)
 | 34 | Jogo de lençol 400 fios com fronhas | 12,50 | 26,00 | Dia a dia | https://s.shopee.com.br/40hNMnij8u |
 | 35 | Kit 10 petisqueiras barquinha | 19,91 | 119,90 | Cozinha | https://s.shopee.com.br/4B0nZ6i5nx |
 | 36 | Kit 7 saquinhos organizadores de mala | 11,99 | 18,99 | Organização | https://s.shopee.com.br/4LKDlPhST0 |
+| 37 | Torneira inox com chuveiro giratório 360° | 25,88 | 59,80 | Cozinha | https://s.shopee.com.br/4B0p0XhafD |
+| 38 | Pastilha que limpa a máquina de lavar | 8,59 |  | Limpeza | https://s.shopee.com.br/50Zw04ePyO |
+| 39 | Cozedor de ovos elétrico a vapor | 29,98 | 99,00 | Cozinha | https://s.shopee.com.br/5AtMCNdmdR |
+| 40 | Centrífuga de salada 3 L | 38,90 | 89,90 | Cozinha | https://s.shopee.com.br/4fx5bSfgeM |
+| 41 | Suporte de canto para shampoo e sabonete | 16,90 | 39,99 | Banheiro | https://s.shopee.com.br/4qGVnlf3JP |
+| 42 | Faqueiro dourado 24 peças de aço inox | 49,90 | 119,80 | Cozinha | https://s.shopee.com.br/3B8Hoj2an4 |
+| 43 | Espelho redondo Adnet com alça de couro | 22,89 |  | Dia a dia | https://s.shopee.com.br/30orcQ3E83 |
+| 44 | Suporte de parede para celular e controle | 7,00 |  | Organização | https://s.shopee.com.br/3Vl8DL1K7A |
+| 45 | Kit 5 utensílios de silicone para cozinha | 21,50 |  | Cozinha | https://s.shopee.com.br/3LRi121xS9 |
+| 46 | Kit 2 abajures com cúpula para quarto e sala | 56,80 | 119,90 | Dia a dia | https://s.shopee.com.br/3qNybx03RG |
+| 47 | Escova limpa ventilador e grades | 11,99 | 29,00 | Limpeza | https://s.shopee.com.br/1Lgg17Qq5I |
+| 48 | Organizador com rodinhas 4 prateleiras | 34,99 |  | Organização | https://s.shopee.com.br/1W06DQQCkL |
+| 49 | 6 tampas de silicone para panelas | 12,99 |  | Cozinha | https://s.shopee.com.br/1gJWPjPZPO |
+| 50 | Organizador de pia 3 em 1 inox | 28,00 |  | Cozinha | https://s.shopee.com.br/1qcwc2Ow4R |
+| 51 | Mochila térmica grande cooler | 36,95 |  | Dia a dia | https://s.shopee.com.br/20wMoLOIjU |
+| 52 | Fita LED neon 5 m | 19,90 |  | Dia a dia | https://s.shopee.com.br/4B0rOLbVfm |
+| 53 | Kit colcha cobre leito casal | 69,90 |  | Dia a dia | https://s.shopee.com.br/40hRC2c90l |
+| 54 | Jogo 6 taças de vidro diamond | 36,99 | 59,99 | Cozinha | https://s.shopee.com.br/5AtOaBXhe0 |
+| 55 | Fruteira de mesa em metal | 38,80 | 89,88 | Cozinha | https://s.shopee.com.br/50ZyNsYKyz |
+| 56 | Ventilador luminária LED 6 pás | 44,99 |  | Dia a dia | https://s.shopee.com.br/4qGYBZYyJy |
+| 57 | Pano absorvente anti óleo p/ cozinha | 8,99 |  | Limpeza | https://s.shopee.com.br/50aKN4eGRU |
+| 58 | Varal de chão dobrável 3 andares | 79,90 | 168,99 | Limpeza | https://s.shopee.com.br/5AtkZNdd6X |
+| 59 | Suqueira 3,5 L com torneira p/ geladeira | 20,55 | 80,00 | Cozinha | https://s.shopee.com.br/4fxTySfX7S |
+| 60 | Umidificador difusor Egg com LED | 16,99 |  | Dia a dia | https://s.shopee.com.br/4qGuAletmV |
+| 61 | Cesto de roupa suja de bambu 72 L dobrável | 55,99 | 99,76 | Organização | https://s.shopee.com.br/4LKdZqgnnQ |
+| 62 | Cortina de 300 LEDs 3x3 m | 35,00 | 80,00 | Dia a dia | https://s.shopee.com.br/4LKdZs6nRa |
+| 63 | Toalha de banho gigante 100% algodão | 19,90 | 44,90 | Banheiro | https://s.shopee.com.br/4Ve3mB6A6d |
+| 64 | Chaleira elétrica jarra inox | 44,90 | 71,25 | Cozinha | https://s.shopee.com.br/4fxTyU5Wlg |
+| 65 | Colmeia organizadora de gaveta (PP a G) | 8,90 |  | Organização | https://s.shopee.com.br/4qGuAn4tQj |
+| 66 | Saco de malha p/ lavar sapato e viagem | 17,44 | 50,00 | Limpeza | https://s.shopee.com.br/50aKN64G5m |
 
-O próximo número é **37**.
+O próximo número é **67**.
 
 ## Onde está publicado
 
